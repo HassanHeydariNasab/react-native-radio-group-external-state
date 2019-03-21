@@ -1,6 +1,6 @@
 {
     "name": "react-native-radio-group-external-state",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A react-native radio-group component that doesn't use internal state",
     "homepage": "https://github.com/HassanHeydariNasab/react-native-radio-group-external-state",
     "repository": {
