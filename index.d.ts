@@ -1,5 +1,6 @@
 declare module 'react-native-radio-group-external-state' {
     import { ViewProps } from 'react-native'
+    import { ReactElement } from 'react'
     interface RadioGroupProps {
         options: object[]
         value: string
@@ -10,5 +11,7 @@ declare module 'react-native-radio-group-external-state' {
         buttonSize?: number
         rtl?: boolean
     }
-    export const RadioGroup: RadioGroupProps<ViewProps> = { buttonSize: 24 }
+    export default function RadioGroup(
+        props: RadioGroupProps<ViewProps>
+    ): ReactElement | null
 }
