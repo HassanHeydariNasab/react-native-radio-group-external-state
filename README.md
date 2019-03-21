@@ -21,6 +21,10 @@ or
 ## Usage
 
 ```jsx
+import React, { Component } from 'react'
+import { View } from 'react-native'
+import RadioGroup from 'react-native-radio-group-external-state'
+
 export default class App extends Component {
     state = { gender: 'unspecified' }
     onChange_gender = value => {
